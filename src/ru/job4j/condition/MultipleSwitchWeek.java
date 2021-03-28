@@ -1,7 +1,5 @@
 package ru.job4j.condition;
 
-import java.util.ArrayList;
-
 public class MultipleSwitchWeek {
 
     public static int numberOfDay(String name) {
