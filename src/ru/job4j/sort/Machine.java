@@ -13,7 +13,6 @@ public class Machine {
             while (accountBalance - coins[i] >= 0) {
                 accountBalance -= coins[i];
                 rsl[size++] = coins[i];
-                price += coins[i];
             }
         }
         return Arrays.copyOf(rsl, size);
