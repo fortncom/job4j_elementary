@@ -9,7 +9,7 @@ public class Merge {
         int positionResult = 0;
         int positionLeft = 0;
         int positionRight = 0;
-        while (positionLeft < left.length || positionRight < right.length) {
+        while (positionResult != rsl.length) {
             if (positionLeft < left.length && positionRight < right.length) {
                 if (left[positionLeft] <= right[positionRight]) {
                     rsl[positionResult++] = left[positionLeft++];
